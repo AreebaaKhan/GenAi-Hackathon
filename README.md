@@ -50,7 +50,7 @@ copy .env.example .env   # (On Windows)
 # cp .env.example .env   # (On Mac/Linux)
 ```
 Open the `.env` file in your code editor and fill in your key:
-- `OPENROUTER_API_KEY` — Get from [openrouter.ai](https://openrouter.ai)
+- `OPENROUTER_API_KEY` — Get from [openrouter.ai](https://openrouter.ai) -> Add your key to .env.example file 
 
 *(The database connection string is already pre-configured to `sqlite+aiosqlite:///./qabil.db` for instant setup).*
 
